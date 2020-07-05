@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Car Rental</title>
+
+	<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <style type="text/css">
+
+    	#box2{
+    		margin-top: 20px;
+    	}
+    	.card{
+    		padding: 20px;
+    	}
+    	.card label{
+    		margin-top: 20px;
+    	}
+
+
+
+
+
+    </style>
+
+</head>
+
+
+<body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  
+	<nav class="navbar navbar-dark bg-danger">
+		<div class="container">
+			<span class="navbar-brand mb-0 h1">Car Rental</span>
+		</div>
+	</nav>
+
+	<nav class="bg-warning" >
+		<div class="container">
+			<ol class="breadcrumb bg-warning">
+				<li class="breadcrumb-item"><a href="#">Home</a></li>
+				<li class="breadcrumb-item"><a href="#">Choose Car</a></li>
+				<li class="breadcrumb-item"><a href="#">Information</a></li>			
+				<li class="breadcrumb-item"><a href="#">Done</a></li>
+			</ol>
+		</div>
+	</nav>
+
+	<div class="container" id="box1">
+		<div class="card">
+			<div class="row">
+				<div class="col-7">
+					<h1>Choose</h1>
+					<p>Car Model: NSX</p>
+					<p>Car Plate: ABC123</p>
+					<p>Car Brand: Acura</p>
+					<p>Rental per Day: RM800.00</p>
+					<p>No. of Days: 1 Day</p>
+					<p>Total Amount: RM800.00</p>
+				</div>
+
+				<div class="col-5" id="nsx">
+					<img src="nsx.jpg" class="img-fluid" >	
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container" id="box2">
+		<div class="card">
+			<h1>Your Information</h1>
+
+			<form>
+				<div class="form-group">
+					<label for="inputName">Name</label>
+					<input type="text" class="form-control" id="inputName">
+
+					<label for="inputEmail">E-mail</label>
+					<input type="email" class="form-control" id="inputEmail">
+
+					<label for="inputName">No. Telephone</label>
+					<input type="tel" class="form-control" id="inputTelephone">
+
+					<label for="inputAddress">Address</label>
+					<input type="text" class="form-control" id="inputAddress">
+
+					<label for="inputMessage">Message</label>
+					<input type="text" class="form-control" id="inputMessage">
+				</div>
+			</form>
+			
+		</div>
+	</div>
+
+
+
+
+</body>
+</html>
